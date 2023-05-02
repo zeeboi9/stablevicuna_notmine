@@ -7,10 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1cttOeIh_7wCrxXRRGJgmcbEIFo8eOT_i
 """
 
-!pip -q install git+https://github.com/huggingface/transformers # need to install from github
-!pip install -q datasets loralib sentencepiece 
-!pip -q install bitsandbytes accelerate
-!pip install flask-ngrok
 !nvidia-smi
 
 """## StableVicuna - RLHF Chat model"""
