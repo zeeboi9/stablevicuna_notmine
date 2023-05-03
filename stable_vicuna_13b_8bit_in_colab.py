@@ -60,7 +60,6 @@ def parse_text(data):
             print(wrapped_text)
 
 """## Run it as a HF model"""
-
-%%time 
+ 
 raw_output = pipe(get_prompt('What is the capital of England?'))
 parse_text(raw_output)
